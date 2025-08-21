@@ -5,6 +5,7 @@
 section{
     width: 100vw;
     height: 50vh;
+    flex-wrap: wrap;
 }
 
 #navegar{
@@ -65,14 +66,41 @@ a{
 
 #principal{
     display: flex;
-    justify-content: center;    
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px;
 }
 
 #imagen{
     background-image: url(https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/15665/production/_107435678_perro1.jpg.webp);
+    background-size: cover;
     background-position-x: 70%;
     background-position-y: 30% ;
-    width: 20vw;
-    height: 30vh;
+    width: 28vw;
+    height: 50vh;
     border-radius: 50%;
+    background-repeat: no-repeat;
+}
+
+.card1{
+    width: 28vw;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #111;
+}
+
+.card1 .cita{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.card1 .rol{
+    margin-bottom: 15px;;
+}
+
+.card1 .title2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
