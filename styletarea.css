@@ -1,6 +1,6 @@
 
   .navbar-custom {
-    background-color:blue;/* Azul Bootstrap */
+    background-color:#0a58ca;/* Azul Bootstrap */
   }
 
   .navbar-custom .nav-link,
@@ -33,6 +33,6 @@
 }
 
 .third{
-    background-color: blue;
+    background-color:#0a58ca;
     height: 250px;
 }
