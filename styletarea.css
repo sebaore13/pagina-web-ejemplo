@@ -1,106 +1,38 @@
-*{
-    margin: 0;
+
+  .navbar-custom {
+    background-color:blue;/* Azul Bootstrap */
+  }
+
+  .navbar-custom .nav-link,
+  .navbar-custom .navbar-brand {
+    color: white;
+  }
+
+  .navbar-custom .nav-link:hover {
+    color: #cfe2ff; /* Azul más claro al pasar el mouse */
+  }
+
+  .navbar-custom .navbar-toggler {
+    border-color: white;
+  }
+
+  .navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+.carousel-item img {
+    height: 300px;          
+    object-fit: cover;     
+    width: 100%;        
+  }
+
+  @media (min-width: 768px) {
+  .carousel-item img {
+    height: 600px;
+  }
 }
 
-section{
-    width: 100vw;
-    height: 50vh;
-    flex-wrap: wrap;
-}
-
-#navegar{
-    height: 8vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.number{
-    font-size: 1.3rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#nav{
-    width: 20vw;
-    display: flex;
-    justify-content: space-around
-}
-
-a{
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-#nosotros{
-    background-color: #FFC323;
-    height: 45vh;
-    display: flex;
-    justify-content: center;
-}
-
-.card{
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.title1{
-    font-size: 2.3rem;
-    font-weight: 500;
-    font-family: 'Segoe UI', 'Trebuchet MS', Verdana, sans-serif;
-    padding: 15px;
-
-}
-
-.card>p{
-    font-style: normal;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    text-align: center;
-    max-width: 600px;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-#principal{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    padding: 60px;
-}
-
-#imagen{
-    background-image: url(https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/15665/production/_107435678_perro1.jpg.webp);
-    background-size: cover;
-    background-position-x: 70%;
-    background-position-y: 30% ;
-    width: 28vw;
-    height: 50vh;
-    border-radius: 50%;
-    background-repeat: no-repeat;
-}
-
-.card1{
-    width: 28vw;
-    text-align: left;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #111;
-}
-
-.card1 .cita{
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 15px;
-}
-.card1 .rol{
-    margin-bottom: 15px;;
-}
-
-.card1 .title2{
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 15px;
+.third{
+    background-color: blue;
+    height: 250px;
 }

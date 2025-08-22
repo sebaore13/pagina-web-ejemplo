@@ -3,35 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pets</title>
+    <title>Document</title>
     <link rel="stylesheet" href="styletarea.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
 <body>
-    <section id="navegar">
-        <nav id="nav">
-            <a href="#">Home</a>
-            <a href="#">Quienes Somos</a>
-            <a href="#">Contactanos</a>
-        </nav>
-        <div class="number">+(56) 9 5678 9102</div>
-    </section>
-    <section id="nosotros">
-        <div class="card">
-            <div class="title1">
-                Nuestra Mision
+    <nav class="navbar navbar-expand-md navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bienvenidos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Eventos</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dicta adipisci. Similique cum exercitationem vitae suscipit, quaerat ullam quam quo perspiciatis itaque sint adipisci sed doloribus beatae officiis numquam dolor nam nisi laborum culpa modi vel. Iusto, assumenda! Architecto vitae animi, natus soluta maxime error provident ad molestias placeat numquam.</p>
         </div>
-    </section>
-    <section id="principal">
-        <div id="imagen">
+        </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="card1">
-            <p class="cita">“Dogs are my best friends, my confidants, my inspiration. I can't imagine starting my day with a snuggle from my dog Charlie.”</p>
-            <p class="rol"><strong>Co-owner</strong></p>
-            <div class="title2">Linda Larson</div>
-            <p class="credit">Image from <a href="https://www.freepik.com" target="_blank">Freepik</a></p>
+        <div class="carousel-inner">
+            <div class="carousel-item active ">
+            <img src="imagenes/Prodrive-Subaru-Impreza.jpg" class="d-block w-100 " alt="No encontrada">
+            </div>
+            <div class="carousel-item">
+            <img src="imagenes/subaru-impreza-2008-centralina.jpg" class="d-block w-100" alt="No encontrada">
+            </div>
+            <div class="carousel-item">
+            <img src="imagenes/HYLQOauJyo.jpg" class="d-block w-100" alt="No encontrada">
+            </div>
         </div>
-    </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="third">
+    </div>
+
 </body>
 </html>
