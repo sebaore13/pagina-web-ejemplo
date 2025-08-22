@@ -32,7 +32,40 @@
   }
 }
 
-.third{
-    background-color:#0a58ca;
-    height: 250px;
+
+.third {
+  background-color: #0a58ca;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
 }
+
+.third-content {
+  width: 100%;
+  max-width: 800px; /* limita todo el bloque al centro */
+  margin: 0 auto;
+}
+
+.logo-sobre-nosotros {
+  height: 100px;
+  margin-top: 2rem;
+}
+
+.sobre-nosotros-texto {
+  color: white;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* A partir de pantallas medianas, ajusta el texto si quieres */
+@media (min-width: 768px) {
+  .sobre-nosotros-texto {
+    font-size: 18px;
+  }
+}
+
+
