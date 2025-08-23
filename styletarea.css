@@ -32,40 +32,60 @@
   }
 }
 
-
 .third {
   background-color: #0a58ca;
   min-height: 300px;
+  padding: 40px 20px;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 20px;
-  text-align: center;
 }
 
 .third-content {
   width: 100%;
-  max-width: 800px; /* limita todo el bloque al centro */
+  max-width: 800px;
   margin: 0 auto;
 }
 
-.logo-sobre-nosotros {
-  height: 100px;
-  margin-top: 2rem;
+.third-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
+/* Logo */
+.logo-sobre-nosotros {
+  height: 100px;
+  margin-top: 0.5rem;
+}
+
+/* Texto */
 .sobre-nosotros-texto {
   color: white;
   font-size: 16px;
-  margin: 0 auto;
   padding: 0 1rem;
 }
 
-/* A partir de pantallas medianas, ajusta el texto si quieres */
+/* A partir de md, mostrar logo a la izquierda */
 @media (min-width: 768px) {
+  .third-flex {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
+  .logo-sobre-nosotros {
+    margin-top: 0;
+    margin-right: 20px;
+  }
+
   .sobre-nosotros-texto {
     font-size: 18px;
   }
 }
+
+
 
 
