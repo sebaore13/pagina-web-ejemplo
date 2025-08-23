@@ -35,7 +35,7 @@
 .third {
   background-color: #0a58ca;
   min-height: 300px;
-  padding: 40px 20px;
+  padding: 20px 20px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -45,7 +45,7 @@
 .third-content {
   width: 100%;
   max-width: 800px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .third-flex {
@@ -58,7 +58,7 @@
 /* Logo */
 .logo-sobre-nosotros {
   height: 100px;
-  margin-top: 0.5rem;
+  margin-top: auto;
 }
 
 /* Texto */
@@ -86,6 +86,20 @@
   }
 }
 
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.img2{     
+  object-fit: cover;        /* recorta si es necesario */
+  object-position: top;     /* muestra parte superior de la imagen */ 
+}
+
+.img4{     
+  object-fit: cover;        /* recorta si es necesario */
+  object-position: right;     /* muestra parte superior de la imagen */ 
+}
 
 
 
